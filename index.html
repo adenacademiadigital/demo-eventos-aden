@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Invitación Digital | Valentína & Sofía — Boda Real</title>
+    <title>Invitación Digital | Miguel & Sofía — Boda Real</title>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -211,9 +211,34 @@
             font-size: 0.85rem;
         }
 
-        footer p span {
+        footer a {
             color: var(--gold-light);
+            text-decoration: none;
             font-weight: 600;
+            transition: color 0.2s;
+        }
+
+        footer a:hover {
+            color: var(--gold);
+            text-decoration: underline;
+        }
+
+        .footer-agency-btn {
+            display: inline-block;
+            margin-top: 1rem;
+            border: 1px solid var(--gold);
+            color: var(--gold-light);
+            padding: 0.5rem 1.25rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .footer-agency-btn:hover {
+            background-color: var(--gold);
+            color: var(--dark);
+            text-decoration: none;
         }
     </style>
 </head>
@@ -237,7 +262,7 @@
     <!-- HERO / PORTADA -->
     <section class="hero">
         <p class="subtitle-top">¡Nos Casamos!</p>
-        <h1>Valentina & Sofía</h1>
+        <h1>Miguel & Sofía</h1>
         <p style="font-style: italic; color: #555;">"El amor es el ingrediente que hace que la vida valga la pena."</p>
         <div class="date-badge">
             SÁBADO | 21 NOVIEMBRE 2026
@@ -293,15 +318,18 @@
         <h2 class="section-title">Confirmar Asistencia</h2>
         <p style="color: var(--text-muted); font-size: 0.9rem;">Por favor confirma tu presencia antes del 1 de Noviembre.</p>
         
-        <a href="https://wa.me/573215467418?text=Hola!%20Deseo%20confirmar%20mi%20asistencia%20a%20la%20boda%20de%20Valentina%20y%20Sofia%20💍" target="_blank" class="btn" style="background-color: #25d366;">
+        <a href="https://wa.me/573215467418?text=Hola!%20Deseo%20confirmar%20mi%20asistencia%20a%20la%20boda%20de%20Miguel%20y%20Sofia%20💍" target="_blank" class="btn" style="background-color: #25d366;">
             Confirmar por WhatsApp 💬
         </a>
     </section>
 
-    <!-- FOOTER -->
+    <!-- FOOTER CON ENLACE A AGENCIA ADEN -->
     <footer>
-        <p>Diseño exclusivo realizado por <span>Agencia ADEN</span></p>
-        <p style="font-size: 0.75rem; color: #888; margin-top: 0.5rem;">Infraestructura Web & Experiencias Digitales</p>
+        <p>Diseño exclusivo desarrollado por <a href="https://agencia-aden.vercel.app/" target="_blank">Agencia ADEN</a></p>
+        <p style="font-size: 0.75rem; color: #888; margin-top: 0.25rem;">Infraestructura Web & Experiencias Digitales</p>
+        <div>
+            <a href="https://agencia-aden.vercel.app/" target="_blank" class="footer-agency-btn">Visitar Agencia ADEN 🚀</a>
+        </div>
     </footer>
 
     <!-- SCRIPT CONTROL DE MÚSICA Y CUENTA REGRESIVA -->
